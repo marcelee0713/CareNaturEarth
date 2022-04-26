@@ -212,6 +212,7 @@ article h1{
 }
 .c-4-header p{
     font-size: 18px;
+    text-align: center;
 }
 .c-4-informations{
     display: flex;
@@ -260,4 +261,84 @@ article h1{
 }
 .c-4 .see-more-button:hover{
     background-color: #5A954C;
+}
+.c-5{
+    background-color: #5A954C;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.c-5 h1{
+    font-size: 40px;
+    text-align: center;
+}
+.c-5 p{
+    font-size: 18px;
+}
+.c-5 span{
+    font-weight: 800;
+}
+.have-questions-form{
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.c-5 form{
+    padding: 40px;
+    background-color: #68AF56;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 12px;
+}
+label{
+    font-size: 18px;
+}
+input{
+    height: 50px;
+    outline:none;
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+}
+textarea{
+    height: 100px;
+    outline:none;
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+}
+input[type="submit"]{
+    cursor: pointer;
+    font-weight: 700;
+    color: #68AF56;
+    width:100px;
+    height:45px;
+    transition: 250ms ease-in-out;
+}
+input[type="submit"]:hover{
+    color: white;
+    background-color: #5A954C;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    -webkit-text-fill-color: black !important;
+}
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#68AF56;
+}
+footer a{
+    text-decoration: none;
+    color: inherit;
+}
+footer a:hover{
+    text-decoration: underline;
 }
